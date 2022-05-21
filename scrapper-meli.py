@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import os
 import cv2
 
-url = 'https://bolsos.mercadolibre.com.ar/carteras-billeteras/cartera-gamuza#D%5BA:cartera%20gamuza,on%5D'
+url = 'https://bolsos.mercadolibre.com.ar/carteras-billeteras/cartera-gamuza-otoño#D%5BA:cartera%20gamuza%20otoño,on%5D'
 folder_name = 'cartera-gamuza'
 
 os.chdir(os.path.join(os.getcwd(), folder_name))
