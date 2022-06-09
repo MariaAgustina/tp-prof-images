@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cartera-cuero</folder>
+	<filename>cartera-cuero-376.jpg</filename>
+	<path>/Users/mariaagustinamarkosich/Documents/TrabajoProfesional/tp-prof-images/cartera-cuero/cartera-cuero-376.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>568</width>
+		<height>393</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cartera</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>20</ymin>
+			<xmax>535</xmax>
+			<ymax>365</ymax>
+		</bndbox>
+	</object>
+</annotation>

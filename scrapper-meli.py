@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import os
 import cv2
 
-url = 'https://bolsos.mercadolibre.com.ar/carteras-billeteras/cartera-gamuza-otoño#D%5BA:cartera%20gamuza%20otoño,on%5D'
-folder_name = 'cartera-gamuza'
+url = 'https://bolsos.mercadolibre.com.ar/carteras-billeteras/cartera-lana_PriceRange_4500-0_NoIndex_True#applied_filter_id%3Dprice%26applied_filter_name%3DPrecio%26applied_filter_order%3D4%26applied_value_id%3D4500.0-*%26applied_value_name%3DMás+de+%244.500%26applied_value_order%3D3%26applied_value_results%3D32%26is_custom%3Dfalse'
+folder_name = 'cartera-lana'
 
 os.chdir(os.path.join(os.getcwd(), folder_name))
 r = requests.get(url)
