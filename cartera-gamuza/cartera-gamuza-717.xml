@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cartera-gamuza</folder>
+	<filename>cartera-gamuza-717.jpg</filename>
+	<path>/Users/mariaagustinamarkosich/Documents/TrabajoProfesional/tp-prof-images/cartera-gamuza/cartera-gamuza-717.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>425</width>
+		<height>568</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cartera</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>85</xmin>
+			<ymin>31</ymin>
+			<xmax>392</xmax>
+			<ymax>522</ymax>
+		</bndbox>
+	</object>
+</annotation>
