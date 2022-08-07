@@ -1,0 +1,38 @@
+<annotation>
+	<folder>fotos</folder>
+	<filename>IMG_20220603_131354841.jpg</filename>
+	<path>C:\FACULTAD\ORGANIZACION DE DATOS\fotos\IMG_20220603_131354841.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1197</width>
+		<height>1600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cartera</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>192</xmin>
+			<ymin>526</ymin>
+			<xmax>938</xmax>
+			<ymax>1482</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cuero</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>250</xmin>
+			<ymin>714</ymin>
+			<xmax>867</xmax>
+			<ymax>1419</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Carteras</folder>
+	<filename>mcloster-08.jpg</filename>
+	<path>/home/milagros/Documentos/Org. Datos/Carteras/mcloster-08.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>551</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cartera</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>549</xmax>
+			<ymax>1021</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tela</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>77</xmin>
+			<ymin>736</ymin>
+			<xmax>244</xmax>
+			<ymax>884</ymax>
+		</bndbox>
+	</object>
+</annotation>

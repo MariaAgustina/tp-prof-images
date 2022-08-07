@@ -1,0 +1,38 @@
+<annotation>
+	<folder>imgs</folder>
+	<filename>tapaldetti-02.jpg</filename>
+	<path>D:\apald\Documents\Facultad\Organizacion de datos\YOLO\imgs\tapaldetti-02.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>701</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cartera</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>121</ymin>
+			<xmax>420</xmax>
+			<ymax>915</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cuero</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>435</ymin>
+			<xmax>423</xmax>
+			<ymax>889</ymax>
+		</bndbox>
+	</object>
+</annotation>

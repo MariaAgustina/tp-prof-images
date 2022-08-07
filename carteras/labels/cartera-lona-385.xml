@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cartera-lona</folder>
+	<filename>cartera-lona-385.jpg</filename>
+	<path>/Users/mariaagustinamarkosich/Documents/TrabajoProfesional/tp-prof-images/cartera-lona/cartera-lona-385.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>568</width>
+		<height>415</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cartera</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>68</xmin>
+			<ymin>19</ymin>
+			<xmax>500</xmax>
+			<ymax>366</ymax>
+		</bndbox>
+	</object>
+</annotation>
