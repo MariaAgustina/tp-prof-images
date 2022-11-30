@@ -2,7 +2,7 @@ train: ../tp-prof-images/carteras/images/
 val: ../tp-prof-images/carteras/val/
 
 # number of classes
-nc: 5
+nc: 1
 
 # class names
-names: [ 'cartera', 'cuero', 'tela', 'gamuza', 'lona']
+names: [ 'cartera']
