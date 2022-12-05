@@ -49,7 +49,7 @@ def leer_annotations(ann_dir, img_dir, labels=[]):
     for ann in sorted(os.listdir(ann_dir)):
         print(ann)
         img = {'object':[]}
-        if ann != '.DS_Store':
+        if ann != '.DS_Store' and ".txt" not in ann:
             tree = ET.parse(ann_dir + ann)
             for elem in tree.iter():
                 if 'filename' in elem.tag:
