@@ -2,10 +2,10 @@ import os
 import xml.etree.ElementTree as ET
 import math
 
-xml_dir = "nylon/labels/"
-img_dir = "nylon/images/"
+xml_dir = "cuero/labels/"
+img_dir = "cuero/images/"
 labels = ["cartera","cuero","gamuza","nylon"] 
-tamanio = 620
+tamanio = 640
 mejores_pesos = "red_lego.h5"
 
 #ejemplo de json generado
