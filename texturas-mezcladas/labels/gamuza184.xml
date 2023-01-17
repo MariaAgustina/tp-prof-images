@@ -1,0 +1,26 @@
+<annotation>
+	<folder>material-gamuza</folder>
+	<filename>gamuza184.jpg</filename>
+	<path>/Users/mariaagustinamarkosich/Documents/TrabajoProfesional/tp-prof-images/material-gamuza/gamuza184.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>474</width>
+		<height>474</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gamuza</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>123</xmin>
+			<ymin>99</ymin>
+			<xmax>339</xmax>
+			<ymax>383</ymax>
+		</bndbox>
+	</object>
+</annotation>
