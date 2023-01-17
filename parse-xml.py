@@ -2,9 +2,9 @@ import os
 import xml.etree.ElementTree as ET
 import math
 
-xml_dir = "cuero/labels/"
-img_dir = "cuero/images/"
-labels = ["cuero","cartera","gamuza","nylon"] 
+xml_dir = "nylon/labels/"
+img_dir = "nylon/images/"
+labels = ["nylon"] 
 tamanio = 640
 mejores_pesos = "red_lego.h5"
 
@@ -15,14 +15,8 @@ def generate_file(img,filename):
     image_width = img['width']
     image_height = img['height']
     for obj in img['object']:
-        if obj['name'] == "cuero":
+        if obj['name'] == "nylon":
             image_class = "0"
-        elif obj['name'] == "cartera":
-            image_class = "1"
-        elif obj['name'] == "gamuza":
-            image_class = "2"
-        elif obj['name'] == "nylon":
-            image_class = "3"
 
         xmin = obj['xmin']
         xmax = obj['xmax']
