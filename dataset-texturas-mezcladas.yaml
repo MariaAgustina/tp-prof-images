@@ -1,0 +1,8 @@
+train: ../tp-prof-images/texturas-mezcladas/images/
+val: ../tp-prof-images/texturas-mezcladas/val/
+
+# number of classes
+nc: 3
+
+# class names
+names: ["nylon","cuero","gamuza"]

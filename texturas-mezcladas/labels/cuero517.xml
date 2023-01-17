@@ -1,0 +1,26 @@
+<annotation>
+	<folder>material-cuero</folder>
+	<filename>cuero517.jpg</filename>
+	<path>/Users/mariaagustinamarkosich/Documents/TrabajoProfesional/tp-prof-images/material-cuero/cuero517.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>474</width>
+		<height>632</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cuero</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>180</ymin>
+			<xmax>398</xmax>
+			<ymax>602</ymax>
+		</bndbox>
+	</object>
+</annotation>
