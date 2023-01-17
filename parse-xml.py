@@ -2,10 +2,10 @@ import os
 import xml.etree.ElementTree as ET
 import math
 
-xml_dir = "carteras/labels/"
-img_dir = "carteras/images/"
-labels = ["cartera","cuero","gamuza","lona"] #TODO: estaria bueno unificar con los que son Mate, Madera, Plastico, Calabaza, Metal
-tamanio = 416
+xml_dir = "nylon/labels/"
+img_dir = "nylon/images/"
+labels = ["cartera","cuero","gamuza","nylon"] 
+tamanio = 620
 mejores_pesos = "red_lego.h5"
 
 #ejemplo de json generado
@@ -21,7 +21,7 @@ def generate_file(img,filename):
             image_class = "1"
         elif obj['name'] == "gamuza":
             image_class = "2"
-        elif obj['name'] == "lona":
+        elif obj['name'] == "nylon":
             image_class = "3"
 
         xmin = obj['xmin']
