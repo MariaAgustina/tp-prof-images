@@ -1,0 +1,26 @@
+<annotation>
+	<folder>material-nylon</folder>
+	<filename>nylon353.jpg</filename>
+	<path>/Users/mariaagustinamarkosich/Documents/TrabajoProfesional/tp-prof-images/material-nylon/nylon353.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>474</width>
+		<height>526</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nylon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>90</xmin>
+			<ymin>282</ymin>
+			<xmax>408</xmax>
+			<ymax>513</ymax>
+		</bndbox>
+	</object>
+</annotation>
