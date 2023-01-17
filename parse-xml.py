@@ -4,7 +4,7 @@ import math
 
 xml_dir = "cuero/labels/"
 img_dir = "cuero/images/"
-labels = ["cartera","cuero","gamuza","nylon"] 
+labels = ["cuero","cartera","gamuza","nylon"] 
 tamanio = 640
 mejores_pesos = "red_lego.h5"
 
@@ -15,9 +15,9 @@ def generate_file(img,filename):
     image_width = img['width']
     image_height = img['height']
     for obj in img['object']:
-        if obj['name'] == "cartera":
+        if obj['name'] == "cuero":
             image_class = "0"
-        elif obj['name'] == "cuero":
+        elif obj['name'] == "cartera":
             image_class = "1"
         elif obj['name'] == "gamuza":
             image_class = "2"
