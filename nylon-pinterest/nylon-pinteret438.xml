@@ -1,0 +1,26 @@
+<annotation>
+	<folder>nylon-pinterest</folder>
+	<filename>nylon-pinteret438.jpg</filename>
+	<path>/Users/mariaagustinamarkosich/Documents/TrabajoProfesional/tp-prof-images/nylon-pinterest/nylon-pinteret438.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>736</width>
+		<height>834</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nylon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>236</xmin>
+			<ymin>25</ymin>
+			<xmax>584</xmax>
+			<ymax>657</ymax>
+		</bndbox>
+	</object>
+</annotation>

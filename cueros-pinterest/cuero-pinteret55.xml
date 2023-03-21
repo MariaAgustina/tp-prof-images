@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cueros-pinterest</folder>
+	<filename>cuero-pinteret55.jpg</filename>
+	<path>/Users/mariaagustinamarkosich/Documents/TrabajoProfesional/tp-prof-images/cueros-pinterest/cuero-pinteret55.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>570</width>
+		<height>379</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cuero</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>36</xmin>
+			<ymin>1</ymin>
+			<xmax>525</xmax>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,9 +1,19 @@
 import requests
 from bs4 import BeautifulSoup
 import os
+#https://unsplash.com/collections/2602638/cuero
+#https://unsplash.com/collections/27931574/texture%2Fleather
+#https://unsplash.com/collections/8586775/leather
+#https://unsplash.com/collections/VeJcjl2BYyM/leather
+#https://unsplash.com/collections/77620996/feminine-stories-in-leather
+#https://unsplash.com/collections/47233760/leather
+#https://unsplash.com/collections/ASemqymipZA/leather-girl
+#https://unsplash.com/collections/_yp2nCWkY28/amati-mango-leather-
+#https://unsplash.com/collections/831786/leather-jackets
+#https://unsplash.com/collections/9939520/leather-shoes
 
-url = 'https://images.search.yahoo.com/search/images;_ylt=AwrFciwv7MJjgW42l1aJzbkF;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDOTYwNjI4NTcEX3IDMgRmcgNzZnAEZnIyA3A6cyx2OmksbTpzYi10b3AEZ3ByaWQDb0ZzNDlMOVVRTC5nSG5CUFduN1R2QQRuX3JzbHQDMARuX3N1Z2cDMTAEb3JpZ2luA2ltYWdlcy5zZWFyY2gueWFob28uY29tBHBvcwMwBHBxc3RyAwRwcXN0cmwDMARxc3RybAM2BHF1ZXJ5A2dhbXV6YQR0X3N0bXADMTY3MzcxODg5Ng--?p=gamuza&fr=sfp&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt'
-folder_name = 'material-gamuza'
+url = 'https://www.instagram.com/explore/tags/cuero/'
+folder_name = 'cuero-ig'
 
 print("URL A DESCARGAR: ", url)
 
@@ -16,17 +26,16 @@ except:
 os.chdir(os.path.join(os.getcwd(), folder_name))
 r = requests.get(url)
 soup = BeautifulSoup(r.text, 'html.parser')
-
 images = soup.find_all('img')
 
-count = 467
+count = 1
 for image in images:
 	try:
 		print(image)
 		link = image['src']
 		sep = '&'
 		link = link.split(sep, 1)[0]
-		name = "gamuza" + str(count)
+		name = "cuero-ig-" + str(count)
 		with open(name.replace(' ','-').replace('/','') + '.jpg', 'wb') as f:
 			im = requests.get(link)
 			f.write(im.content)

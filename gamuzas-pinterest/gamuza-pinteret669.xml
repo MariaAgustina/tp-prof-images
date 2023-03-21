@@ -1,0 +1,26 @@
+<annotation>
+	<folder>gamuzas-pinterest</folder>
+	<filename>gamuza-pinteret669.jpg</filename>
+	<path>/Users/mariaagustinamarkosich/Documents/TrabajoProfesional/tp-prof-images/gamuzas-pinterest/gamuza-pinteret669.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>736</width>
+		<height>1104</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gamuza</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>227</xmin>
+			<ymin>138</ymin>
+			<xmax>504</xmax>
+			<ymax>735</ymax>
+		</bndbox>
+	</object>
+</annotation>
